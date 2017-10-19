@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../../Scripts/Core">
+      <sourceFolder url="file://$MODULE_DIR$/../../../Scripts/Core" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../Scripts/Editor">
+      <sourceFolder url="file://$MODULE_DIR$/../../../Scripts/Editor" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../Scripts/Utility">
+      <sourceFolder url="file://$MODULE_DIR$/../../../Scripts/Utility" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../UVRPN" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../UVRPN-Editor" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UVRPN-Editor/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UVRPN-Editor/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UVRPN/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UVRPN/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../packages" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
