@@ -1403,7 +1403,7 @@ MonoBehaviour:
   trackPosition: 1
   localPosition: 1
   invertPos: {fileID: 2126744124}
-  scale: 1
+  scale: 3
   trackRotation: 1
   localRotation: 1
   invertRot: {fileID: 2037442348}
@@ -1774,8 +1774,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
+  x: 1
+  y: 1
   z: 0
 --- !u!1 &2044003664
 GameObject:
@@ -1878,4 +1878,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  z: 0
+  z: 1

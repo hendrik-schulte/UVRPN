@@ -7,5 +7,5 @@ add_subdirectory(vrpn)
 
 include_directories(vrpn)
 
-add_library(unityVrpn SHARED source/unityVrpn.cpp)
+add_library(unityVrpn SHARED native_source/unityVrpn.cpp)
 target_link_libraries(unityVrpn vrpn)

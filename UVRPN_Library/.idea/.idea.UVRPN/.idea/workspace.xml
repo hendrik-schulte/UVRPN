@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45121d16-4818-4183-a28e-5a64f7b3e2fb" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="VRPN_Button.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Button.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508416898009" expanded="false" signature="6:44" ph="..." />
+                <marker date="1508416898009" expanded="true" signature="66:1524" ph="{...}" />
+                <marker date="1508416898009" expanded="true" signature="73:219" ph="/// This component receives button event via VRPN_NativeBridge and distributes them by the given UnityEvents. ... " />
+                <marker date="1508416898009" expanded="true" signature="269:1522" ph="{...}" />
+                <marker date="1508416898009" expanded="true" signature="821:1149" ph="{...}" />
+                <marker date="1508416898009" expanded="true" signature="857:1139" ph="{...}" />
+                <marker date="1508416898009" expanded="true" signature="1180:1516" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VRPN_Analog.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Analog.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1508743421062" expanded="true" signature="40:698" ph="{...}" />
+                <marker date="1508743421062" expanded="true" signature="47:189" ph="/// This component receives analog stick data via VRPN_NativeBridge and distributes it via an UnityEvent. ... " />
+                <marker date="1508743421062" expanded="true" signature="232:696" ph="{...}" />
+                <marker date="1508743421062" expanded="true" signature="574:690" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VRPN_Client.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Client.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508416369914" expanded="true" signature="40:968" ph="{...}" />
+                <marker date="1508416369914" expanded="true" signature="47:148" ph="/// This is the base class for all VRPN_NativeBridge components. ... " />
+                <marker date="1508416369914" expanded="true" signature="202:966" ph="{...}" />
+                <marker date="1508416369914" expanded="true" signature="217:791" ph="VRPN_NativeBridge Settings" />
+                <marker date="1508416369914" expanded="true" signature="801:960" ph="Properties" />
+                <marker date="1508416369914" expanded="true" signature="853:940" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VRPN_Manager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Manager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-144">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508416083226" expanded="true" signature="40:1750" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="88:1748" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="233:328" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="338:587" ph="Button" />
+                <marker date="1508416083226" expanded="true" signature="418:567" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="597:1141" ph="Analog" />
+                <marker date="1508416083226" expanded="true" signature="673:774" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="840:1121" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="950:1110" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="1151:1530" ph="Tracker" />
+                <marker date="1508416083226" expanded="true" signature="1231:1336" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="1404:1510" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="1587:1647" ph="{...}" />
+                <marker date="1508416083226" expanded="true" signature="1682:1742" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VRPN_NativeBridge.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_NativeBridge.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508416125064" expanded="false" signature="6:56" ph="..." />
+                <marker date="1508416125064" expanded="true" signature="78:1796" ph="{...}" />
+                <marker date="1508416125064" expanded="true" signature="85:181" ph="/// This class is the interface to the native VRPN library. ... " />
+                <marker date="1508416125064" expanded="true" signature="223:1794" ph="{...}" />
+                <marker date="1508416125064" expanded="true" signature="712:804" ph="{...}" />
+                <marker date="1508416125064" expanded="true" signature="870:962" ph="{...}" />
+                <marker date="1508416125064" expanded="true" signature="1035:1331" ph="{...}" />
+                <marker date="1508416125064" expanded="true" signature="1408:1788" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VRPN_ManagerEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_ManagerEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <marker date="1508401343421" expanded="false" signature="6:55" ph="..." />
+                <marker date="1508401343421" expanded="true" signature="77:506" ph="{...}" />
+                <marker date="1508401343421" expanded="true" signature="165:504" ph="{...}" />
+                <marker date="1508401343421" expanded="true" signature="217:498" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VRPN_ClientEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_ClientEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <marker date="1508744556478" expanded="false" signature="6:55" ph="..." />
+                <marker date="1508744556478" expanded="true" signature="77:2000" ph="{...}" />
+                <marker date="1508744556478" expanded="true" signature="200:1998" ph="{...}" />
+                <marker date="1508744556478" expanded="true" signature="341:489" ph="{...}" />
+                <marker date="1508744556478" expanded="true" signature="551:1724" ph="{...}" />
+                <marker date="1508744556478" expanded="true" signature="1081:1218" ph="{...}" />
+                <marker date="1508744556478" expanded="true" signature="1239:1365" ph="{...}" />
+                <marker date="1508744556478" expanded="true" signature="1830:1992" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VRPN_AnalogEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_AnalogEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <marker date="1508744556514" expanded="false" signature="6:55" ph="..." />
+                <marker date="1508744556514" expanded="true" signature="77:620" ph="{...}" />
+                <marker date="1508744556514" expanded="true" signature="205:618" ph="{...}" />
+                <marker date="1508744556514" expanded="true" signature="265:285" ph="{...}" />
+                <marker date="1508744556514" expanded="true" signature="334:612" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonEditableDrawer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/NonEditableDrawer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508414871285" expanded="false" signature="6:37" ph="..." />
+                <marker date="1508414871285" expanded="true" signature="139:1376" ph="{...}" />
+                <marker date="1508414871285" expanded="true" signature="230:1374" ph="{...}" />
+                <marker date="1508414871285" expanded="true" signature="297:1305" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VRPN_TrackerEditor.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_TrackerEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <marker date="1508744517765" expanded="false" signature="6:76" ph="..." />
+                <marker date="1508744517765" expanded="true" signature="98:3501" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="228:3499" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="593:1309" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="1116:1299" ph="/* var window = EditorWindow.GetWindow(typeof(VRPN_TrackerEditor)); ... */" />
+                <marker date="1508744517765" expanded="true" signature="1364:1975" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="1488:1631" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="1783:1927" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="2017:2220" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="2262:2415" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="2498:3493" ph="{...}" />
+                <marker date="1508744517765" expanded="true" signature="2682:2811" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_ManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_ClientEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Button.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Analog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UVRPN/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_NativeBridge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_AnalogEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_TrackerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/NonEditableDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UVRPN/Class1.cs" />
+        <option value="$PROJECT_DIR$/UVRPN-Editor/Class1.cs" />
+        <option value="$PROJECT_DIR$/../Scripts/Editor/VRPN_TrackerEditor.cs" />
+        <option value="$PROJECT_DIR$/../Scripts/Core/VRPN_Analog.cs" />
+        <option value="$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Analog.cs" />
+        <option value="$PROJECT_DIR$/UVRPN/Properties/AssemblyInfo.cs" />
+        <option value="$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_TrackerEditor.cs" />
+        <option value="$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_ClientEditor.cs" />
+        <option value="$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_AnalogEditor.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN-Editor" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN-Editor" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Editor" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utility" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UVRPN" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="References" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assemblies" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45121d16-4818-4183-a28e-5a64f7b3e2fb" name="Default" comment="" />
+      <created>1508419276299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508419276299</updated>
+      <workItem from="1508419278240" duration="1599000" />
+      <workItem from="1508740986975" duration="1998000" />
+      <workItem from="1508743307816" duration="1893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5490000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1176" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UVRPN/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508743707920" expanded="true" signature="6:62" ph="..." />
+            <marker date="1508743707920" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1508743707920" expanded="true" signature="548:758" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1508743707920" expanded="true" signature="933:1260" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Scripts/Editor/VRPN_AnalogEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/../Scripts/Core/VRPN_Analog.cs" />
+    <entry file="file://$PROJECT_DIR$/../Scripts/Core/VRPN_NativeBridge.cs" />
+    <entry file="file://$PROJECT_DIR$/UVRPN/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/UVRPN-Editor/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/../Scripts/Utility/InvertAxis.cs" />
+    <entry file="file://$PROJECT_DIR$/../Scripts/Editor/VRPN_AnalogEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/../Scripts/Editor/VRPN_TrackerEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/../Scripts/Core/VRPN_NativeBridge.cs" />
+    <entry file="file://$PROJECT_DIR$/../Scripts/Core/VRPN_Analog.cs" />
+    <entry file="file://$PROJECT_DIR$/UVRPN/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding>
+            <marker date="1508743707920" expanded="true" signature="6:62" ph="..." />
+            <marker date="1508743707920" expanded="true" signature="64:251" ph="/* General Information about an assembly is controlled through the following ... */" />
+            <marker date="1508743707920" expanded="true" signature="548:758" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
+            <marker date="1508743707920" expanded="true" signature="933:1260" ph="/* Version information for an assembly consists of the following four values: ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Button.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508416898009" expanded="false" signature="6:44" ph="..." />
+            <marker date="1508416898009" expanded="true" signature="66:1524" ph="{...}" />
+            <marker date="1508416898009" expanded="true" signature="73:219" ph="/// This component receives button event via VRPN_NativeBridge and distributes them by the given UnityEvents. ... " />
+            <marker date="1508416898009" expanded="true" signature="269:1522" ph="{...}" />
+            <marker date="1508416898009" expanded="true" signature="821:1149" ph="{...}" />
+            <marker date="1508416898009" expanded="true" signature="857:1139" ph="{...}" />
+            <marker date="1508416898009" expanded="true" signature="1180:1516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Analog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1508743421062" expanded="true" signature="40:698" ph="{...}" />
+            <marker date="1508743421062" expanded="true" signature="47:189" ph="/// This component receives analog stick data via VRPN_NativeBridge and distributes it via an UnityEvent. ... " />
+            <marker date="1508743421062" expanded="true" signature="232:696" ph="{...}" />
+            <marker date="1508743421062" expanded="true" signature="574:690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508416369914" expanded="true" signature="40:968" ph="{...}" />
+            <marker date="1508416369914" expanded="true" signature="47:148" ph="/// This is the base class for all VRPN_NativeBridge components. ... " />
+            <marker date="1508416369914" expanded="true" signature="202:966" ph="{...}" />
+            <marker date="1508416369914" expanded="true" signature="217:791" ph="VRPN_NativeBridge Settings" />
+            <marker date="1508416369914" expanded="true" signature="801:960" ph="Properties" />
+            <marker date="1508416369914" expanded="true" signature="853:940" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508416083226" expanded="true" signature="40:1750" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="88:1748" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="233:328" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="338:587" ph="Button" />
+            <marker date="1508416083226" expanded="true" signature="418:567" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="597:1141" ph="Analog" />
+            <marker date="1508416083226" expanded="true" signature="673:774" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="840:1121" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="950:1110" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="1151:1530" ph="Tracker" />
+            <marker date="1508416083226" expanded="true" signature="1231:1336" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="1404:1510" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="1587:1647" ph="{...}" />
+            <marker date="1508416083226" expanded="true" signature="1682:1742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Core/VRPN_NativeBridge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508416125064" expanded="false" signature="6:56" ph="..." />
+            <marker date="1508416125064" expanded="true" signature="78:1796" ph="{...}" />
+            <marker date="1508416125064" expanded="true" signature="85:181" ph="/// This class is the interface to the native VRPN library. ... " />
+            <marker date="1508416125064" expanded="true" signature="223:1794" ph="{...}" />
+            <marker date="1508416125064" expanded="true" signature="712:804" ph="{...}" />
+            <marker date="1508416125064" expanded="true" signature="870:962" ph="{...}" />
+            <marker date="1508416125064" expanded="true" signature="1035:1331" ph="{...}" />
+            <marker date="1508416125064" expanded="true" signature="1408:1788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/NonEditableDrawer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508414871285" expanded="false" signature="6:37" ph="..." />
+            <marker date="1508414871285" expanded="true" signature="139:1376" ph="{...}" />
+            <marker date="1508414871285" expanded="true" signature="230:1374" ph="{...}" />
+            <marker date="1508414871285" expanded="true" signature="297:1305" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_AnalogEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <marker date="1508744556514" expanded="false" signature="6:55" ph="..." />
+            <marker date="1508744556514" expanded="true" signature="77:620" ph="{...}" />
+            <marker date="1508744556514" expanded="true" signature="205:618" ph="{...}" />
+            <marker date="1508744556514" expanded="true" signature="265:285" ph="{...}" />
+            <marker date="1508744556514" expanded="true" signature="334:612" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_ClientEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <marker date="1508744556478" expanded="false" signature="6:55" ph="..." />
+            <marker date="1508744556478" expanded="true" signature="77:2000" ph="{...}" />
+            <marker date="1508744556478" expanded="true" signature="200:1998" ph="{...}" />
+            <marker date="1508744556478" expanded="true" signature="341:489" ph="{...}" />
+            <marker date="1508744556478" expanded="true" signature="551:1724" ph="{...}" />
+            <marker date="1508744556478" expanded="true" signature="1081:1218" ph="{...}" />
+            <marker date="1508744556478" expanded="true" signature="1239:1365" ph="{...}" />
+            <marker date="1508744556478" expanded="true" signature="1830:1992" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_ManagerEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1508401343421" expanded="false" signature="6:55" ph="..." />
+            <marker date="1508401343421" expanded="true" signature="77:506" ph="{...}" />
+            <marker date="1508401343421" expanded="true" signature="165:504" ph="{...}" />
+            <marker date="1508401343421" expanded="true" signature="217:498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UVRPN_Unity/Assets/Scripts/Editor/VRPN_TrackerEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1508744517765" expanded="false" signature="6:76" ph="..." />
+            <marker date="1508744517765" expanded="true" signature="98:3501" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="228:3499" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="593:1309" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="1116:1299" ph="/* var window = EditorWindow.GetWindow(typeof(VRPN_TrackerEditor)); ... */" />
+            <marker date="1508744517765" expanded="true" signature="1364:1975" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="1488:1631" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="1783:1927" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="2017:2220" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="2262:2415" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="2498:3493" ph="{...}" />
+            <marker date="1508744517765" expanded="true" signature="2682:2811" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -6,7 +6,7 @@ using UVRPN.Utility;
 namespace UVRPN.Edit
 {
     [CustomEditor(typeof(VRPN_Tracker))]
-    [CanEditMultipleObjects]
+//    [CanEditMultipleObjects]
     public class VRPN_TrackerEditor : VRPN_ClientEditor
     {
         private SerializedProperty trackPos;
@@ -30,6 +30,10 @@ namespace UVRPN.Edit
             trackRot = serializedObject.FindProperty("trackRotation");
             localRot = serializedObject.FindProperty("localRotation");
             invertRot = serializedObject.FindProperty("invertRot");
+
+//            var window = EditorWindow.GetWindow(typeof(VRPN_TrackerEditor));
+//            window.titleContent.text = "VRPN_Tracker";
+//            window.titleContent.image = null;
         }
 
         protected override void OnChildInspectorGUI()

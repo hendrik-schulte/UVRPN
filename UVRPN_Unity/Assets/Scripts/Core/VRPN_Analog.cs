@@ -15,9 +15,9 @@ namespace UVRPN.Core
         [Tooltip("This event is triggered every frame.")]
         public AnalogEvent OnAnalog = new AnalogEvent();
 
-        public Vector2 Analog => analog;
+        public Vector2 Analog {get { return analog; }} 
 
-        void Update()
+        private void Update()
         {
             analog = host.GetAnalogVec(tracker, channel);
 

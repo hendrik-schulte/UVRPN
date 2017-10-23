@@ -5,7 +5,7 @@ using UVRPN.Core;
 namespace UVRPN.Edit
 {
     [CustomEditor(typeof(VRPN_Client), true)]
-    [CanEditMultipleObjects]
+//    [CanEditMultipleObjects]
     public class VRPN_ClientEditor : Editor
     {
         protected SerializedProperty channel;

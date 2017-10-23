@@ -29,9 +29,14 @@ ExportedObj/
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
-UVRPN/Assets/UVRPN/UVRPN/UVRPN/obj/
-UVRPN/Assets/UVRPN/UVRPN/UVRPN-Editor/obj/
-UVRPN/Library/
-UVRPN/Assets/UVRPN/UVRPN/UVRPN/bin/Release/UnityEngine.xml
-UVRPN/Assets/UVRPN/UVRPN/UVRPN-Editor/bin/Release/UnityEditor.xml
-UVRPN/Assets/UVRPN/UVRPN/UVRPN-Editor/bin/Release/UnityEngine.xml
+UVRPN_Unity/Library/
+UVRPN_Unity/.vs/UVRPN/v15/sqlite3/storage.ide
+UVRPN_Library/UVRPN-Editor/obj/
+UVRPN_Library/UVRPN/obj/
+UVRPN_Library/UVRPN/bin/Release/UnityEngine.xml
+UVRPN_Library/UVRPN-Editor/bin/Release/UnityEngine.xml
+UVRPN_Library/UVRPN-Editor/bin/Release/UnityEditor.xml
+UVRPN_Library/.idea/.idea.UVRPN/riderModule.iml
+UVRPN_Library/.idea/.idea.UVRPN/.idea/modules.xml
+UVRPN_Library/.idea/.idea.UVRPN/.idea/contentModel.xml
+UVRPN_Library/.idea/.idea.UVRPN/.idea/.name
