@@ -22,6 +22,10 @@ The the *.unitypackage* only contains *.dll* files. The source is included in *U
 
 ## Native Plugin
 
+### Source
+
+The source is located in *native_source\*.
+
 ### Compiling
 
 Be sure to initialize/update the vrpn submodule in order to compile the plugin.
