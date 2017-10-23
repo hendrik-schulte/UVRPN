@@ -18,13 +18,13 @@ Getting Started
 
 ## UVRPN Plugin
 
-The the *.unitypackage* only contains *.dll* files. The source is included in *UVRPN_Unity\Assets\Scripts\*.
+The the *.unitypackage* only contains *.dll* files. The source is included in /UVRPN_Unity/Assets/Scripts/.
 
 ## Native Plugin
 
 ### Source
 
-The source is located in *native_source\*.
+The source is located in /native_source/.
 
 ### Compiling
 
