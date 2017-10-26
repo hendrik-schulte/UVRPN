@@ -9,6 +9,8 @@ namespace UVRPN.Edit
 //    [CanEditMultipleObjects]
     public class VRPN_TrackerEditor : VRPN_ClientEditor
     {
+        private SerializedProperty isConnected;
+        
         private SerializedProperty trackPos;
         private SerializedProperty localPos;
         private SerializedProperty invertPos;
@@ -22,6 +24,8 @@ namespace UVRPN.Edit
         {
             base.OnEnable();
 
+            isConnected = serializedObject.FindProperty("initiallyConnected");
+            
             trackPos = serializedObject.FindProperty("trackPosition");
             localPos = serializedObject.FindProperty("localPosition");
             invertPos = serializedObject.FindProperty("invertPos");
@@ -38,7 +42,8 @@ namespace UVRPN.Edit
 
         protected override void OnChildInspectorGUI()
         {
-
+            EditorGUILayout.LabelField("Initially Connected", isConnected.boolValue.ToString());
+            
             using (var posGroup = new EditorGUILayout.ToggleGroupScope("Position Tracking", trackPos.boolValue))
             {
                 trackPos.boolValue = posGroup.enabled;

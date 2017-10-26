@@ -1,29 +1,21 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using UVRPN.Utility;
 
 namespace UVRPN.Core
 {
     /// <summary>
-    /// This component reveives spatial data via VRPN_NativeBridge and applies it to the attached transform.
+    /// This component reveives spatial data via VRPN and applies it to the attached transform.
     /// </summary>
     public class VRPN_Tracker : VRPN_Client
     {
         #region Position Fields
 
-        [SerializeField]
-        [HideInInspector]
-        private bool trackPosition = true;
-        [SerializeField]
-        [HideInInspector]
-        private bool localPosition = true;
-        [SerializeField]
-        [HideInInspector]
-        private InvertAxis invertPos;
-        [SerializeField]
-        [HideInInspector]
-        [Range(0, 100)]
-        private float scale = 1;
+        [SerializeField] [HideInInspector] private bool trackPosition = true;
+        [SerializeField] [HideInInspector] private bool localPosition = true;
+        [SerializeField] [HideInInspector] private InvertAxis invertPos;
+        [SerializeField] [HideInInspector] [Range(0, 100)] private float scale = 1;
 
 
         private Coroutine positionCoroutine;
@@ -32,32 +24,34 @@ namespace UVRPN.Core
 
         #region Rotation Fields
 
-        [SerializeField]
-        [HideInInspector]
-        private bool trackRotation = true;
-        [SerializeField]
-        [HideInInspector]
-        private bool localRotation = true;
-        [SerializeField]
-        [HideInInspector]
-        private InvertAxis invertRot;
+        [SerializeField] [HideInInspector] private bool trackRotation = true;
+        [SerializeField] [HideInInspector] private bool localRotation = true;
+        [SerializeField] [HideInInspector] private InvertAxis invertRot;
         private Coroutine rotationCoroutine;
 
         #endregion
 
         #region Properties
-        
+
+        /// <summary>
+        /// Returns true if this tracker has been found at least once.
+        /// </summary>
+        public bool InitiallyConnected {get { return initiallyConnected; }
+        }
+
+        [SerializeField] [HideInInspector] private bool initiallyConnected;
+
         public bool TrackPosition
         {
             get { return trackPosition; }
             set
             {
                 trackPosition = value;
-                if (trackPosition && Application.isPlaying)
-                {
-                    StopCoroutine(positionCoroutine);
-                    positionCoroutine = StartCoroutine(Position());
-                }
+
+                if (!trackPosition || !Application.isPlaying) return;
+
+                StopCoroutine(positionCoroutine);
+                positionCoroutine = StartCoroutine(Position());
             }
         }
 
@@ -67,11 +61,11 @@ namespace UVRPN.Core
             set
             {
                 trackRotation = value;
-                if (trackRotation && Application.isPlaying)
-                {
-                    StopCoroutine(rotationCoroutine);
-                    rotationCoroutine = StartCoroutine(Rotation());
-                }
+
+                if (!trackRotation || !Application.isPlaying) return;
+
+                StopCoroutine(rotationCoroutine);
+                rotationCoroutine = StartCoroutine(Rotation());
             }
         }
 
@@ -91,9 +85,11 @@ namespace UVRPN.Core
         }
 
         #region Position Functions
-        
-        protected IEnumerator Position()
+
+        private IEnumerator Position()
         {
+            yield return StartCoroutine(WaitForInitialConnection());
+            
             while (true)
             {
                 var output = Process(invertPos.Apply(host.GetPosition(tracker, channel)) * scale);
@@ -105,6 +101,12 @@ namespace UVRPN.Core
             }
         }
 
+        /// <summary>
+        /// Takes the position vector right before it is applied to the transform. Allows for inherited classes to 
+        /// intervene by overriding the function.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         protected virtual Vector3 Process(Vector3 input)
         {
             return input;
@@ -114,12 +116,14 @@ namespace UVRPN.Core
 
         #region Rotation Functions
 
-        protected IEnumerator Rotation()
+        private IEnumerator Rotation()
         {
+            yield return StartCoroutine(WaitForInitialConnection());
+
             while (true)
-            { 
+            {
                 var output = Process(invertRot.Apply(host.GetRotation(tracker, channel)));
-                
+
                 if (localRotation) transform.localRotation = output;
                 else transform.rotation = output;
 
@@ -128,15 +132,37 @@ namespace UVRPN.Core
         }
 
         /// <summary>
-        /// Processes the rotation of this tracker.
+        /// Takes the rotation quaternion right before it is applied to the transform. Allows for inherited classes to 
+        /// intervene by overriding the function.
         /// </summary>
         /// <param name="input"></param>
-        /// <param name="output"></param>
         protected virtual Quaternion Process(Quaternion input)
         {
             return input;
         }
 
         #endregion
+        
+        /// <summary>
+        /// This runs until tracker data is received and sets 'initiallyConnected' to true afterwards.
+        /// </summary>
+        /// <returns></returns>
+        private IEnumerator WaitForInitialConnection()
+        {
+            while (!InitiallyConnected)
+            {
+                var temp = host.GetPosition(tracker, channel);
+                
+                if (Math.Abs(temp.x - (-505)) < 0.001f &&
+                    Math.Abs(temp.y - (-505)) < 0.001f &&
+                    Math.Abs(temp.z - (-505)) < 0.001f)
+                {
+                    yield return null;
+                    continue;
+                }
+
+                initiallyConnected = true;
+            }
+        }
     }
 }

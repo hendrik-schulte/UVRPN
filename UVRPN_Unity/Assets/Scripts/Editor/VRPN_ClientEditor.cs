@@ -30,7 +30,7 @@ namespace UVRPN.Edit
                 tracker.stringValue = EditorGUILayout.TextField("Tracker", tracker.stringValue, GUILayout.MinWidth(250));
                 if (client.Host)
                 {
-                    EditorGUILayout.LabelField("@" + client.Host.Hostname, GUILayout.MaxWidth(100));
+                    EditorGUILayout.LabelField("@ " + client.Host.Hostname, GUILayout.MaxWidth(100));
                 }
                 else
                 {

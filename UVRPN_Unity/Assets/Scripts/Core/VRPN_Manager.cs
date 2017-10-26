@@ -2,18 +2,49 @@
 
 namespace UVRPN.Core
 {
+    /// <summary>
+    /// This class is required for a VRPN_Clint to work and forwards all VRPN calls to the right server address.
+    /// </summary>
     public class VRPN_Manager : MonoBehaviour
     {
+        #region Host Name
+        
         [SerializeField]
         private string hostname = "localhost";
 
         private string _hostname;
-
+        
         public string Hostname
         {
             get { return hostname; }
-            set { hostname = value; }
+            set
+            {
+                hostname = value; 
+                AssembleHostname();
+            }
         }
+
+        private string GetTrackerAdress(string tracker)
+        {
+            return tracker + _hostname;
+        }
+
+        private void AssembleHostname()
+        {
+            _hostname = "@" + hostname;
+        }
+
+        private void OnValidate()
+        {
+            AssembleHostname();
+        }
+
+        private void Awake()
+        {
+            AssembleHostname();
+        }
+
+        #endregion
 
         #region Button
 
@@ -37,7 +68,7 @@ namespace UVRPN.Core
         {
             var address = GetTrackerAdress(tracker);
 
-            return new Vector2()
+            return new Vector2
             {
                 x = (float)VRPN_NativeBridge.Analog(address, channel),
                 y = (float)VRPN_NativeBridge.Analog(address, channel + 1)
@@ -59,15 +90,5 @@ namespace UVRPN.Core
         }
 
         #endregion
-
-        private string GetTrackerAdress(string tracker)
-        {
-            return tracker + _hostname;
-        }
-
-        private void OnValidate()
-        {
-            _hostname = "@" + hostname;
-        }
     }
 }

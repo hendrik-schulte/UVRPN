@@ -123,8 +123,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
+  x: 1
+  y: 1
   z: 0
 --- !u!114 &48068368
 MonoBehaviour:
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  z: 0
+  z: 1
 --- !u!1 &61168680
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,6 +182,7 @@ MonoBehaviour:
   trackRotation: 1
   localRotation: 1
   invertRot: {fileID: 44445217}
+  initiallyConnected: 0
 --- !u!23 &61168682
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -502,13 +503,13 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 374783328}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 2.1316284e-14, y: -0.000000029802326, z: 0.7071068, w: -0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1560195805}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -687,6 +688,7 @@ MonoBehaviour:
   trackRotation: 1
   localRotation: 1
   invertRot: {fileID: 140730399}
+  initiallyConnected: 0
 --- !u!23 &456584687
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -986,7 +988,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 969536482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1029,13 +1031,13 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1028708910}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.00000008940697, y: -0.000000029802322, z: 1, w: 0.00000008940697}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 408930421}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.00002}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1120,6 +1122,7 @@ MonoBehaviour:
   trackRotation: 1
   localRotation: 1
   invertRot: {fileID: 2122112874}
+  initiallyConnected: 0
 --- !u!23 &1143106500
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1213,7 +1216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eac9395efdfd4470af0d0607aef1b8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hostname: localhost
+  hostname: 127.0.0.1
 --- !u!4 &1453964017
 Transform:
   m_ObjectHideFlags: 0
@@ -1407,6 +1410,7 @@ MonoBehaviour:
   trackRotation: 1
   localRotation: 1
   invertRot: {fileID: 2037442348}
+  initiallyConnected: 0
 --- !u!23 &1763112616
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1697,6 +1701,7 @@ MonoBehaviour:
   trackRotation: 1
   localRotation: 1
   invertRot: {fileID: 1840479843}
+  initiallyConnected: 0
 --- !u!23 &2033007361
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1800,13 +1805,13 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2044003664}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.0000002682209, y: -0.000000029802322, z: -0.7071072, w: -0.70710635}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1834605377}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 450}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1844,7 +1849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: z
+  m_Text: Z
 --- !u!222 &2044003667
 CanvasRenderer:
   m_ObjectHideFlags: 0
