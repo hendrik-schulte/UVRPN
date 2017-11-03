@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.Events;
+using UVRPN.Events;
 
 namespace UVRPN.Core
 {
@@ -15,19 +15,19 @@ namespace UVRPN.Core
 
         [Header("Events")]
         [Tooltip("This is triggered when a button is pressed.")]
-        public UnityEvent OnButtonUp = new UnityEvent();
+        public ButtonEvent OnButtonUp = new ButtonEvent();
         [Tooltip("This is triggered when a button is released.")]
-        public UnityEvent OnButtonDown = new UnityEvent();
+        public ButtonEvent OnButtonDown = new ButtonEvent();
         [Tooltip("This is triggered every frame as long as the button is pressed.")]
-        public UnityEvent OnButtonHold = new UnityEvent();
+        public ButtonEvent OnButtonHold = new ButtonEvent();
 
         private void Start()
         {
             if (debugLog)
             {
-                OnButtonDown.AddListener(() => print("Button " + channel + " Down"));
-                OnButtonUp.AddListener(() => print("Button " + channel + " Up"));
-                OnButtonHold.AddListener(() => print("Button " + channel + " Hold"));
+                OnButtonDown.AddListener((int c) => print("Button " + channel + " Down"));
+                OnButtonUp.AddListener((int c) => print("Button " + channel + " Up"));
+                OnButtonHold.AddListener((int c) => print("Button " + channel + " Hold"));
             }
         }
 
@@ -35,9 +35,9 @@ namespace UVRPN.Core
         {
             var pressed = host.IsButtonPressed(tracker, channel);
 
-            if (previouslyPressed && !pressed) OnButtonUp.Invoke();
-            if (previouslyPressed && pressed) OnButtonHold.Invoke();
-            if (!previouslyPressed && pressed) OnButtonDown.Invoke();
+            if (previouslyPressed && !pressed) OnButtonUp.Invoke(channel);
+            if (previouslyPressed && pressed) OnButtonHold.Invoke(channel);
+            if (!previouslyPressed && pressed) OnButtonDown.Invoke(channel);
 
             previouslyPressed = pressed;
         }

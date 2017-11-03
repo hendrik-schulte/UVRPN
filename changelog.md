@@ -1,5 +1,11 @@
 # Changelog
 
+## UVRPN 1.3
+
+- Added license file
+- Button events now include the channel number
+- Moved events to UVRPN.Events namespace
+
 ## UVRPN 1.2
 
 - Fixed UVRPN not working in Build
