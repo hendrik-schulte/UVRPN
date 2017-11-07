@@ -1,10 +1,14 @@
-# UVRPN
-
-VRPN wrapper for Unity3D. This has been forked from [this](https://github.com/arviceblot/unityVRPN).
+# UVRPN - [VRPN](https://github.com/vrpn/vrpn/wiki) wrapper for Unity3D
 
 You can build the plugin from scratch, or use the download in the releases, or use the Unity package in the releases which includes built plugins for Windows, OS X, Linux, and Android.
 
-Recently tested with an *ART DTrack* device under Windows 64bit.
+Recently tested with an *ART DTrack* device under Windows 64bit and Unity 2017.2.
+
+#### Features
+- Easy integration of multiple VRPN tracking devices
+- Supports Trackers, Buttons and Analog data
+- No external application or heavy-weight framework needed 
+- Nice interface with custom editors
 
 Getting Started
 ---------------
@@ -60,4 +64,8 @@ This gets position component of a tracker at the vrpn address and the channel.  
 public static Quaternion TrackerQuat(string address, int channel)
 ```
 
-This gets rotation component of a tracker at the vrpn address and the channel.  When first called with a new address, the vrpn connection will be created.  An address's values will be updated at most once per frame.
+This gets rotation component of a tracker at the /vrpn address and the channel.  When first called with a new address, the vrpn connection will be created.  An address's values will be updated at most once per frame.
+
+## Acknowledgement
+
+UVRPN has been forked from [arviceblot/unityVRPN](https://github.com/arviceblot/unityVRPN).
