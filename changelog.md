@@ -1,5 +1,9 @@
 # Changelog
 
+## UVRPN 1.4
+
+- New Properties to accesss button input from update loop
+
 ## UVRPN 1.3
 
 - Added license file
