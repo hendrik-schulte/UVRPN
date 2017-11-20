@@ -3,8 +3,11 @@ using UnityEngine;
 
 namespace UVRPN.Utility
 {
+    /// <summary>
+    /// Utility class for inverting each axis.
+    /// </summary>
     [Serializable]
-    public class InvertAxis : ScriptableObject
+    public class InvertAxis
     {
         public bool x, y, z;
 

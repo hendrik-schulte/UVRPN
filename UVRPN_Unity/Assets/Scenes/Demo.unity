@@ -112,34 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &44445217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 1
-  y: 1
-  z: 0
---- !u!114 &48068368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 1
 --- !u!1 &61168680
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,11 +149,17 @@ MonoBehaviour:
   channel: 4
   trackPosition: 1
   localPosition: 1
-  invertPos: {fileID: 48068368}
+  invertPos:
+    x: 0
+    y: 0
+    z: 0
   scale: 1
   trackRotation: 1
   localRotation: 1
-  invertRot: {fileID: 44445217}
+  invertRot:
+    x: 0
+    y: 0
+    z: 0
   initiallyConnected: 0
 --- !u!23 &61168682
 MeshRenderer:
@@ -267,18 +245,18 @@ MonoBehaviour:
   OnButtonUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+    m_TypeName: UVRPN.Events.ButtonEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   OnButtonDown:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+    m_TypeName: UVRPN.Events.ButtonEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   OnButtonHold:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+    m_TypeName: UVRPN.Events.ButtonEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!114 &61168687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,21 +275,8 @@ MonoBehaviour:
   OnAnalog:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: AnalogEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &140730399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 1
-  y: 1
-  z: 0
+    m_TypeName: UVRPN.Events.AnalogEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!1 &166497441
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,11 +648,17 @@ MonoBehaviour:
   channel: 2
   trackPosition: 1
   localPosition: 1
-  invertPos: {fileID: 1643115508}
+  invertPos:
+    x: 0
+    y: 0
+    z: 0
   scale: 1
   trackRotation: 1
   localRotation: 1
-  invertRot: {fileID: 140730399}
+  invertRot:
+    x: 0
+    y: 0
+    z: 0
   initiallyConnected: 0
 --- !u!23 &456584687
 MeshRenderer:
@@ -994,20 +965,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &990348920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
 --- !u!1 &1028708910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,11 +1074,17 @@ MonoBehaviour:
   channel: 3
   trackPosition: 1
   localPosition: 1
-  invertPos: {fileID: 990348920}
+  invertPos:
+    x: 0
+    y: 0
+    z: 0
   scale: 1
   trackRotation: 1
   localRotation: 1
-  invertRot: {fileID: 2122112874}
+  invertRot:
+    x: 0
+    y: 0
+    z: 0
   initiallyConnected: 0
 --- !u!23 &1143106500
 MeshRenderer:
@@ -1356,20 +1319,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1643115508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 1
 --- !u!1 &1763112614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,11 +1354,17 @@ MonoBehaviour:
   channel: 1
   trackPosition: 1
   localPosition: 1
-  invertPos: {fileID: 2126744124}
-  scale: 3
+  invertPos:
+    x: 1
+    y: 1
+    z: 0
+  scale: 1
   trackRotation: 1
   localRotation: 1
-  invertRot: {fileID: 2037442348}
+  invertRot:
+    x: 0
+    y: 1
+    z: 0
   initiallyConnected: 0
 --- !u!23 &1763112616
 MeshRenderer:
@@ -1571,34 +1526,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1840479843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 1
-  y: 1
-  z: 0
---- !u!114 &1935495282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 1
 --- !u!1 &1982945628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,11 +1623,17 @@ MonoBehaviour:
   channel: 0
   trackPosition: 1
   localPosition: 1
-  invertPos: {fileID: 1935495282}
+  invertPos:
+    x: 0
+    y: 0
+    z: 0
   scale: 1
   trackRotation: 1
   localRotation: 1
-  invertRot: {fileID: 1840479843}
+  invertRot:
+    x: 0
+    y: 0
+    z: 0
   initiallyConnected: 0
 --- !u!23 &2033007361
 MeshRenderer:
@@ -1768,20 +1701,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2037442348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 1
-  y: 1
-  z: 0
 --- !u!1 &2044003664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,31 +1775,3 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2044003664}
---- !u!114 &2122112874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
---- !u!114 &2126744124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afe020746dfd6741b8038c9009c00e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 1

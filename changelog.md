@@ -1,5 +1,9 @@
 # Changelog
 
+## UVRPN 1.5
+
+- Fixed Serializing of InvertAxis Property when using prefabs.
+
 ## UVRPN 1.4
 
 - New Properties to accesss button input from update loop

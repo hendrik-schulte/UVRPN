@@ -12,7 +12,7 @@ Recently tested with an *ART DTrack* device under Windows 64bit and Unity 2017.2
 
 Getting Started
 ---------------
-1. Download and import the [package](https://github.com/hendrik-schulte/UVRPN/raw/master/packages/UVRPN_V_1.4.unitypackage).
+1. Download and import the [package](https://github.com/hendrik-schulte/UVRPN/raw/master/packages/UVRPN_V_1.5.unitypackage).
 2. Add a **VRPN_Manager** component to any object in the scene.
     * *Hostname*:  The IP address or hostname of the VRPN server / *localhost*.
 3. Add a **VRPN_Tracker**, **VRPN_Button** or **VRPN_Analog** component to any object you want to track with VRPN. Configure it as follows:

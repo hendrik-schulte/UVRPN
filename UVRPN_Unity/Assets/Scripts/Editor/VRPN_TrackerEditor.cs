@@ -1,12 +1,9 @@
 ﻿using UnityEditor;
-using UnityEngine;
 using UVRPN.Core;
-using UVRPN.Utility;
 
 namespace UVRPN.Edit
 {
     [CustomEditor(typeof(VRPN_Tracker))]
-//    [CanEditMultipleObjects]
     public class VRPN_TrackerEditor : VRPN_ClientEditor
     {
         private SerializedProperty isConnected;
@@ -34,10 +31,6 @@ namespace UVRPN.Edit
             trackRot = serializedObject.FindProperty("trackRotation");
             localRot = serializedObject.FindProperty("localRotation");
             invertRot = serializedObject.FindProperty("invertRot");
-
-//            var window = EditorWindow.GetWindow(typeof(VRPN_TrackerEditor));
-//            window.titleContent.text = "VRPN_Tracker";
-//            window.titleContent.image = null;
         }
 
         protected override void OnChildInspectorGUI()
@@ -64,41 +57,14 @@ namespace UVRPN.Edit
         private void DrawPositionPanel()
         {
             localPos.boolValue = EditorGUILayout.Toggle("Local", localPos.boolValue);
-            DrawInvertAxisProperty(invertPos);
+            EditorGUILayout.PropertyField(invertPos);
             EditorGUILayout.PropertyField(scale);
         }
 
         private void DrawRotationPanel()
         {
             localRot.boolValue = EditorGUILayout.Toggle("Local", localRot.boolValue);
-            DrawInvertAxisProperty(invertRot);
-        }
-
-        private static void DrawInvertAxisProperty(SerializedProperty invertAxis)
-        {
-            EditorGUILayout.BeginHorizontal();
-            {
-                var invert = invertAxis.objectReferenceValue as InvertAxis;
-
-                if (invert == null)
-                {
-                    invertAxis.objectReferenceValue = invert = CreateInstance<InvertAxis>();
-                }
-
-                EditorGUILayout.LabelField("Invert Axis", GUILayout.MaxWidth(70));
-
-                EditorGUILayout.Space();
-                EditorGUILayout.Space();
-                GUILayout.FlexibleSpace();
-
-                EditorGUILayout.LabelField("X", GUILayout.MaxWidth(15));
-                invert.x = EditorGUILayout.Toggle(invert.x);
-                EditorGUILayout.LabelField("Y", GUILayout.MaxWidth(15));
-                invert.y = EditorGUILayout.Toggle(invert.y);
-                EditorGUILayout.LabelField("Z", GUILayout.MaxWidth(15));
-                invert.z = EditorGUILayout.Toggle(invert.z);
-            }
-            EditorGUILayout.EndHorizontal();
+            EditorGUILayout.PropertyField(invertRot);
         }
     }
 }
