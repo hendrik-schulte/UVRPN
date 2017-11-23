@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
-public class NonEditableAttribute : PropertyAttribute
+namespace UVRPN.Utility
 {
+    public class NonEditableAttribute : PropertyAttribute
+    {
+    }
 }
