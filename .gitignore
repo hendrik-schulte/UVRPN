@@ -5,6 +5,7 @@
 /[Bb]uilds/
 /.idea/
 /Assets/AssetStoreTools*
+/[Pp]ackages/
 
 # Visual Studio 2015 cache directory
 /.vs/
@@ -43,3 +44,4 @@ UVRPN_Library/.idea/.idea.UVRPN/.idea/.name
 UVRPN_Library/.idea/.idea.UVRPN/.idea/indexLayout.xml
 UVRPN_Unity/.vs/UVRPN_Unity/v15/sqlite3/storage.ide
 UVRPN_Unity/Build/
+UVRPN_Unity/.idea/
