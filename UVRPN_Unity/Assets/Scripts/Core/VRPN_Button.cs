@@ -39,9 +39,9 @@ namespace UVRPN.Core
         {
             if (debugLog)
             {
-                OnButtonDown.AddListener((int c) => print("Button " + channel + " Down"));
-                OnButtonUp.AddListener((int c) => print("Button " + channel + " Up"));
-                OnButtonHold.AddListener((int c) => print("Button " + channel + " Hold"));
+                OnButtonDown.AddListener((int c) => print("Button " + c + " Down"));
+                OnButtonUp.AddListener((int c) => print("Button " + c + " Up"));
+                OnButtonHold.AddListener((int c) => print("Button " + c + " Hold"));
             }
         }
 

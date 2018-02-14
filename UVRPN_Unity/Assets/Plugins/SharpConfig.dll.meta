@@ -1,7 +1,6 @@
 fileFormatVersion: 2
-guid: 88c933f3c43eb4f37b74c00e5f86fff9
-folderAsset: yes
-timeCreated: 1464834737
+guid: eeedeb22ff039974ab329511af7b7a97
+timeCreated: 1518609146
 licenseType: Free
 PluginImporter:
   externalObjects: {}
@@ -14,29 +13,20 @@ PluginImporter:
   - first:
       Any: 
     second:
-      enabled: 0
+      enabled: 1
       settings: {}
   - first:
       Editor: Editor
     second:
-      enabled: 1
+      enabled: 0
       settings:
         DefaultValueInitialized: true
   - first:
-      Standalone: OSXIntel
+      Windows Store Apps: WindowsStoreApps
     second:
-      enabled: 1
-      settings: {}
-  - first:
-      Standalone: OSXIntel64
-    second:
-      enabled: 1
-      settings: {}
-  - first:
-      Standalone: OSXUniversal
-    second:
-      enabled: 1
-      settings: {}
+      enabled: 0
+      settings:
+        CPU: AnyCPU
   userData: 
   assetBundleName: 
   assetBundleVariant: 

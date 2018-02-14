@@ -41,6 +41,9 @@ namespace UVRPN.Core
 
         [SerializeField] [HideInInspector] private bool initiallyConnected;
 
+        /// <summary>
+        /// When this is true, the position of this tracker is applied.
+        /// </summary>
         public bool TrackPosition
         {
             get { return trackPosition; }
@@ -55,6 +58,9 @@ namespace UVRPN.Core
             }
         }
 
+        /// <summary>
+        /// When this is true, the rotation of this tracker is applied.
+        /// </summary>
         public bool TrackRotation
         {
             get { return trackRotation; }
@@ -102,7 +108,7 @@ namespace UVRPN.Core
         }
 
         /// <summary>
-        /// Takes the position vector right before it is applied to the transform. Allows for inherited classes to 
+        /// Takes the position vector right before it is applied to the transform. Allows inherited classes to 
         /// intervene by overriding the function.
         /// </summary>
         /// <param name="input"></param>
@@ -132,7 +138,7 @@ namespace UVRPN.Core
         }
 
         /// <summary>
-        /// Takes the rotation quaternion right before it is applied to the transform. Allows for inherited classes to 
+        /// Takes the rotation quaternion right before it is applied to the transform. Allows inherited classes to 
         /// intervene by overriding the function.
         /// </summary>
         /// <param name="input"></param>
@@ -153,7 +159,8 @@ namespace UVRPN.Core
             {
                 var temp = host.GetPosition(tracker, channel);
                 
-                if (Math.Abs(temp.x - (-505)) < 0.001f &&
+                //Vector (505, 505, 505) is hard coded in native library
+                if (Math.Abs(temp.x - (-505)) < 0.001f && 
                     Math.Abs(temp.y - (-505)) < 0.001f &&
                     Math.Abs(temp.z - (-505)) < 0.001f)
                 {

@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SharpConfig, Version=3.2.6.0, Culture=neutral, PublicKeyToken=c1deedac91bd7724">
+      <HintPath>..\..\UVRPN_Unity\Assets\Plugins\SharpConfig.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -56,6 +59,7 @@
     <Compile Include="..\..\UVRPN_Unity\Assets\Scripts\Events\ButtonEvent.cs" />
     <Compile Include="..\..\UVRPN_Unity\Assets\Scripts\Utility\InvertAxis.cs" />
     <Compile Include="..\..\UVRPN_Unity\Assets\Scripts\Utility\NonEditableAttribute.cs" />
+    <Compile Include="..\..\UVRPN_Unity\Assets\Scripts\Utility\VRPN_ConfigManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

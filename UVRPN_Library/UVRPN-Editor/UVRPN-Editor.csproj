@@ -49,11 +49,12 @@
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>C:\Program Files\Unity 2017.3\Editor\Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UVRPN, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="UVRPN, Version=1.5.2.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\UVRPN\bin\Release\UVRPN.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\UVRPN_Unity\Assets\Scripts\Editor\ConfigManagerEditor.cs" />
     <Compile Include="..\..\UVRPN_Unity\Assets\Scripts\Editor\InvertAxisPropertyDrawer.cs" />
     <Compile Include="..\..\UVRPN_Unity\Assets\Scripts\Editor\NonEditableDrawer.cs" />
     <Compile Include="..\..\UVRPN_Unity\Assets\Scripts\Editor\VRPN_AnalogEditor.cs" />
