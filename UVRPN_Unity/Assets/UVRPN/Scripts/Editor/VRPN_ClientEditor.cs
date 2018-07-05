@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+using UnityEditor;
 using UnityEngine;
 using UVRPN.Core;
 
@@ -56,3 +57,4 @@ namespace UVRPN.Edit
         }
     }
 }
+#endif

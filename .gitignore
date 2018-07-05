@@ -48,3 +48,8 @@ Export/Temp/
 UVRPN_Library/UVRPN-Editor/bin/
 UVRPN_Library/UVRPN/bin/
 UVRPN_Unity/Temp/
+*.csproj
+*.sln
+UVRPN_Unity/Assets/Plugins/Editor/JetBrains/
+UVRPN_Unity/Assets/Plugins/Editor/JetBrains.meta
+UVRPN_Unity/Assets/Plugins/Editor.meta
